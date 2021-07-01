@@ -13,6 +13,7 @@ export const errorHandler = (
       .json({ errors: err.serializeErrors() });
   }
 
+  console.error(err);
   return response
     .status(500)
     .json({ errors: [{ message: 'something broke' }] });
