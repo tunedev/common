@@ -4,3 +4,4 @@ export { Subjects } from './subjects';
 export { OrderStatus } from './types/order-status';
 export * from './ticket-events';
 export * from './order-events';
+export * from './expiration-events';
